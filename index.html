@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML default colors</title>
+    <meta name="author" content="Jyri Konttinen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+</head>
+<body>
+    <div class="color-picker"></div>
+<div id="color-code"></div>
+<button id="copy-button">Copy Color Code</button> <!-- Add copy button -->
+<script src="script.js"></script>
+
+    <div class="toaster"></div>
+    <div class="header">
+        <h1>HTML,CSS COLOR CODES</h1>
+        <div class="controls">
+            <form>
+                <label for="search">Search</label>
+                <input type="text" id="search" name="search" placeholder="Enter color name" autocomplete="off">
+            </form>
+            <form>
+                <label>Sorting</label>
+                <div>
+                    <button type="button" id="sortAlphabetical" class="segmentedButton selected">Alphabetical</button>
+                    <button type="button" id="sortLuminance" class="segmentedButton">Luminance</button>
+                    <button type="button" id="sortReverse"><i class="material-icons">arrow_downward</i></button>
+                </div>
+            </form>
+        </div>
+    </div> 
+    <div class="container" id="htmlColors"></div>
+
+</body>
+<script src="color-name-to-hex.js"></script>
+<script src="scripts.js"></script>
+</html>

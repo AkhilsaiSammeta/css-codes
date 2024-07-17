@@ -43,7 +43,7 @@ This repository contains a machine learning-based color code generator that sugg
 1. **Clone the Repository**: 
    ```sh
    git clone https://github.com/AkhilsaiSammeta/css-codes.git
-sh```
+
 Navigate to the Directory:
 ```sh
 cd css-codes
